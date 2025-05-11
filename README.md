@@ -19,36 +19,11 @@ This project focuses on enhancing tiny object detection in urban traffic using U
 
 The algorithm is trained on a custom traffic vehicle dataset captured from UAV drones. The dataset consists of 8 vehicle classes such as cars, bikes, trucks, and pedestrians. Due to its uniqueness, the dataset is not publicly available, but a similar dataset with 4 car models (0 to 3) is available for download [here](https://universe.roboflow.com/object-detection-vwva6/vehicle-detection-in-aerial-images).
 
-## Installation
-
-To get started, follow these steps:
-
-1. Clone this repository:
-
-   ```bash
-   git clone https://github.com/your-username/urban-traffic-detection.git
-   cd urban-traffic-detection
-   ```
-
-2. Install the required dependencies:
-
-   ```bash
-   pip install -r requirements.txt
-   ```
-
 ## Usage
 
 1. Prepare the dataset by downloading the UAV vehicle detection dataset.
-2. Train the model:
-
-   ```bash
-   python train.py --dataset /path/to/dataset
-   ```
-3. Test the model:
-
-   ```bash
-   python test.py --model /path/to/saved/model --dataset /path/to/test/dataset
-   ```
+2. Train the model with the dataset.
+3. Test the model on test data to evaluate performance.
 
 ## Results
 
@@ -59,5 +34,4 @@ The **RTS-NET** model significantly improves small object detection accuracy whe
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
-
 
